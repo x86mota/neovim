@@ -18,5 +18,6 @@ end
 vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
+	require('plugins.bufferline'),
 	require('plugins.lualine')
 })
