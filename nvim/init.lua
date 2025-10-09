@@ -19,5 +19,7 @@ vim.opt.rtp:prepend(lazypath)
 
 require('lazy').setup({
 	require('plugins.bufferline'),
-	require('plugins.lualine')
+	require('plugins.lualine'),
+	require('plugins.colorschemes.gruvbox'),
+	require('plugins.treesitter')
 })
