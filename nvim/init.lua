@@ -2,6 +2,7 @@
 -- Load Custom Configurations
 -- ==================================================
 require('core.options')
+require('core.mappings')
 
 -- Plugin Manager
 local lazypath = vim.fn.stdpath('data') .. '/lazy/lazy.nvim'
